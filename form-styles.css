@@ -53,9 +53,25 @@ table {
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Nunito|Arimo);
 
+html { 
+  background: url(chicago1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000033;
+}
+
 #info_form {
 	font-family: Verdana,Geneva,sans-serif;
 	
+}
+
+p2 {
+	text-align: center;
+	font-size:22px;
+	color: white;
+	font-family: 'Arimo', sans-serif;
 }
 
 
