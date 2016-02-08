@@ -17,36 +17,32 @@
     <center><p2>Welcome to Skyline Sports Chicago! We are your one-stop source for everything Chicago sports related. We strive to bring you the greatest Chicago sports news from all the major sports reporting websites. This allows us to compile a complete database of all of the best and accurate information around multiple leagues. Check back daily for updates, news, and information on all of your favorite teams!</p2></center>
     
     <h2>Skyline Sports Survey/Contact Information</h2>
-	<form method="POST" action="thankyou.html" id="info_form" enctype="multipart/form-data">
+	<form method="POST" action="#" id="info_form" enctype="multipart/form-data">
+	<div id="wrapper">
 	<fieldset>
 	<legend>My Info</legend>
-		<p2>
-			<label>First Name:  <input type="text" name="first_name_field" placeholder=""></label>
-			<label>Last Name:  <input type="text" name="last_name_field" placeholder=""></label>
-			<label>Phone Number:  <input type="tel" name="phone_field" placeholder=""></label>
-			<label>Email Address:  <input type="email" name="email_field" placeholder=""></label>
-		</p2>
-		<p2>
-			<label>Gender:  </label>  
-			<label for="maleinput">Male </label> <input type="radio" name="gender_field" value="male" checked="checked">     
-			<label>Female <input type="radio" name="gender_field" value="female"></label>
-		</p2>
-        <br>
-		<p2>
-			<label>Age:   </label><br>
-			<select name="age_field">
-				<option value="No age selected">Select age</option>
-				<option value="under 18">under 18</option>
-				<option value="18 - 24">18 - 24</option>
-				<option value="25 - 34">25 - 34</option>
-				<option value="35 - 44">35 - 44</option>
-				<option value="45 - 54">45 - 54</option>
-				<option value="55 - 64">55 - 64</option>
-				<option value="65 and over">65 and over</option>
-			</select>
-		</p2>
+		<label>First Name:  <input type="text" name="first_name_field" placeholder=""></label>
+		<label>Last Name:  <input type="text" name="last_name_field" placeholder=""></label>
+		<label>Phone Number:  <input type="tel" name="phone_field" placeholder=""></label>
+		<label>Email Address:  <input type="email" name="email_field" placeholder=""></label>
+		<label>Gender:  </label>  
+		<label for="maleinput">Male </label>
+		<input type="radio" name="gender_field" value="male" checked="checked">      
+		<label>Female </label>
+		<input type="radio" name="gender_field" value="female">
+		<label>Age:   </label><br>
+		<select name="age_field">
+			<option value="No age selected">Select age</option>
+			<option value="under 18">under 18</option>
+			<option value="18 - 24">18 - 24</option>
+			<option value="25 - 34">25 - 34</option>
+			<option value="35 - 44">35 - 44</option>
+			<option value="45 - 54">45 - 54</option>
+			<option value="55 - 64">55 - 64</option>
+			<option value="65 and over">65 and over</option>
+		</select>
 	</fieldset>
-			<br>
+
 	<fieldset>
 	<legend>Where did you hear about Skyline Sports?</legend>
 	
@@ -63,10 +59,8 @@
 		
 		<p2>
 			<label for="comments_field">Any Comments? (We value your feedback!):</label><br>
-				<textarea cols="100" rows="10" name="comments_field" placeholder="Write any additional questions or comments here" id="comments_field"></textarea><br>
-			<br>
+				<textarea cols="100" rows="10" name="comments_field" placeholder="Write any additional questions or comments here" id="comments_field"></textarea>
 		</p2>
-			
 			<input type="hidden" name="hidden_field" value="zjaks">
 			<button type="submit" form="info_form" value="submitform">Submit Form</button>
 	</fieldset>
