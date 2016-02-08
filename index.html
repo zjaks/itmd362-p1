@@ -3,25 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
-  <title>Information Form</title>
-  <link rel="stylesheet" href="screen.css" />
+  <title>Skyline Sports Mailing List</title>
+  <link rel="stylesheet" href="form-styles.css" />
 </head>
 
 <body>
-  <div id="wrapper">
-  <form method="POST" action="#" id="info" enctype="multipart/form-data">
-    <label for="username">Username</label><br>
-    <input type="text" id="username" maxlength="18" name="username" /><br>
-    <label for="telephone">Email Address</label><br>
-    <input id="telephone" name="telephone" /><br>
-    <label for="biography">Biography</label><br>
-    <textarea id="biography"></textarea><br>
-    <label for="password">Password</label><br>
-    <input type="password" id="password" name="password" /><br>
-    <input type="submit" id="submit" name="Submit" /><br>
-  </form>
-  </div>
-  
+	<center><img src="skylinesportslogo.jpg" alt="Skyline Sports" height="170" width="600"></center>
+    <div class="container">
+    <div class="content">
+    </div>
+    </div>
+    
+    <center><p2>Welcome to Skyline Sports Chicago! We are your one-stop source for everything Chicago sports related. We strive to bring you the greatest Chicago sports news from all the major sports reporting websites. This allows us to compile a complete database of all of the best and accurate information around multiple leagues. Check back daily for updates, news, and information on all of your favorite teams!</p2></center>
+    
+    <h2>Skyline Sports Survey/Contact Information</h2>
+	<form method="POST" action="thankyou.html" id="info_form" enctype="multipart/form-data">
+	<fieldset>
+	<legend>My Info</legend>
+		<p2>
+			<label>First Name:  <input type="text" name="first_name_field" placeholder=""></label>
+			<label>Last Name:  <input type="text" name="last_name_field" placeholder=""></label>
+			<label>Phone Number:  <input type="tel" name="phone_field" placeholder=""></label>
+			<label>Email Address:  <input type="email" name="email_field" placeholder=""></label>
+		</p2>
+		<p2>
+			<label>Gender:  </label>  
+			<label for="maleinput">Male </label> <input type="radio" name="gender_field" value="male" checked="checked">     
+			<label>Female <input type="radio" name="gender_field" value="female"></label>
+		</p2>
+        <br>
+		<p2>
+			<label>Age:   </label><br>
+			<select name="age_field">
+				<option value="No age selected">Select age</option>
+				<option value="under 18">under 18</option>
+				<option value="18 - 24">18 - 24</option>
+				<option value="25 - 34">25 - 34</option>
+				<option value="35 - 44">35 - 44</option>
+				<option value="45 - 54">45 - 54</option>
+				<option value="55 - 64">55 - 64</option>
+				<option value="65 and over">65 and over</option>
+			</select>
+		</p2>
+	</fieldset>
+			<br>
+	<fieldset>
+	<legend>Where did you hear about Skyline Sports?</legend>
+	
+			<label>Check all that apply:</label>
+			<ul>
+				<li>Another website:<input type="checkbox" name="available_field[]" value="Sunday"></li>
+				<li>Facebook:    <input type="checkbox" name="available_field[]" value="Monday"></li>
+				<li>Twitter:     <input type="checkbox" name="available_field[]" value="Tuesday"></li>
+				<li>Radio (670 the Score):<input type="checkbox" name="available_field[]" value="Wednesday"></li>
+				<li>Friend/word of mouth:   <input type="checkbox" name="available_field[]" value="Thursday"></li>
+				<li>Advertisment:     <input type="checkbox" name="available_field[]" value="Friday"></li>
+				<li>Other:    <input type="checkbox" name="available_field[]" value="Saturday"></li>
+			</ul>
+		
+		<p2>
+			<label for="comments_field">Any Comments? (We value your feedback!):</label><br>
+				<textarea cols="100" rows="10" name="comments_field" placeholder="Write any additional questions or comments here" id="comments_field"></textarea><br>
+			<br>
+		</p2>
+			
+			<input type="hidden" name="hidden_field" value="zjaks">
+			<button type="submit" form="info_form" value="submitform">Submit Form</button>
+	</fieldset>
+	</form>
+	
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
   <script type="text/javascript">
   WebFont.load = {
