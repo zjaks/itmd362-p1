@@ -113,12 +113,13 @@ legend {
 
 #text {
 	max-width: 50em;
-	text-align: left;
 	font-size:20px;
 	color: white;
 	font-family: 'Arimo', sans-serif;
-    padding: 25px;
-    margin: 4em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4em;
+	margin-bottom: 3em;
 }
 
 ul, li {
@@ -133,12 +134,12 @@ textarea {
 	color: white;
 }
 
-input[type=submit]:hover {
-	color: #FF8900;
-}
-
 select {
 	margin-bottom: 2em;
+}
+
+input[type=submit]:hover {
+	color: #FF8900;
 }
 
 input[type=submit] {
