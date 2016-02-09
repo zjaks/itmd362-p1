@@ -76,11 +76,11 @@ img {
 
 h2 {
 	text-align: center;
-	color: #0066FF;
+	color: white; /* If webkit is not supported text will be white */
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 	-webkit-text-fill-color: #0066FF; /* Will override color (regardless of order) */
-   	-webkit-text-stroke-width: 0.5px;
+   	-webkit-text-stroke-width: 0.75px;
   	-webkit-text-stroke-color: white;
 }	
 
