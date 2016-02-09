@@ -62,6 +62,11 @@ html {
   background-color: #000033;
 }
 
+img {
+	align: center;
+	padding-bottom: 2em;
+}
+
 #info_form {
 	font-family: Verdana,Geneva,sans-serif;
 	
@@ -90,11 +95,26 @@ legend {
 	font-family: 'Nunito', sans-serif;
 }
 
+#wrapper {
+	margin-top: 1.5em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2em;
+	display: block;
+	text-align: left;
+	width: 50em;
+	border: 2px solid #262626;
+	padding: 0.5em;
+	background-color: #004080;
+}
+
 p2 {
-	text-align: center;
-	font-size:22px;
+	text-align: left;
+	font-size:20px;
 	color: white;
 	font-family: 'Arimo', sans-serif;
+	margin-top: 3em;
+	padding-top: 2em;
 }
 
 ul, li {
