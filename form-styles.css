@@ -63,8 +63,10 @@ html {
 }
 
 img {
-	align: center;
-	padding-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2 em;
 }
 
 #info_form {
@@ -90,7 +92,7 @@ label {
 }
 
 legend {
-	font-size: 2em;
+	font-size: 1.5em;
 	color: white;
 	font-family: 'Nunito', sans-serif;
 }
@@ -108,13 +110,14 @@ legend {
 	background-color: #004080;
 }
 
-p2 {
+#text {
+	max-width: 100em;
 	text-align: left;
 	font-size:20px;
 	color: white;
 	font-family: 'Arimo', sans-serif;
-	margin-top: 3em;
-	padding-top: 2em;
+    padding: 25px;
+    margin: 25px;
 }
 
 ul, li {
