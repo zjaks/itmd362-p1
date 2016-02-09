@@ -67,6 +67,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2 em;
+    margin-top: 1.5em;
 }
 
 #info_form {
@@ -111,13 +112,13 @@ legend {
 }
 
 #text {
-	max-width: 100em;
+	max-width: 50em;
 	text-align: left;
 	font-size:20px;
 	color: white;
 	font-family: 'Arimo', sans-serif;
     padding: 25px;
-    margin: 25px;
+    margin: 4em;
 }
 
 ul, li {
@@ -136,6 +137,25 @@ input[type=submit]:hover {
 	color: #FF8900;
 }
 
+select {
+	margin-bottom: 2em;
+}
 
+input[type=submit] {
+	font-size: 1em;
+	color: black;
+	font-family: 'Nunito', sans-serif;
+    background: #f2f2f2; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    display: block;
+    height: 35px;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.5em;
+}
 
 
