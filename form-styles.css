@@ -169,6 +169,7 @@ input[type=submit] {
 	font-size: 1em;
 	color: black;
 	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
     background: #42BCFF; 
     border:0 none;
     cursor: pointer;
