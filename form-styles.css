@@ -149,6 +149,22 @@ select {
 	margin-bottom: 2em;
 }
  
+input[type=text]:invalid {
+  border: 0.2em solid red;
+}
+
+input[type=text]:valid {
+  border: 0.2em solid green;
+}
+
+input[type=email]:invalid {
+  border: 0.2em solid red;
+}
+
+input[type=email]:valid {
+  border: 0.2em solid green;
+}
+
 input[type=submit]:hover {
 	color: #FFE44C;
 }

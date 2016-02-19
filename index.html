@@ -1,4 +1,4 @@
-<!-- Created by Zdenek Jaks on February 8th, 2016
+<!-- Created by Zdenek Jaks on February 7th, 2016
 	 ITMD 362 Project One: Onboarding
 	 Background image credit/Creative Commons License: Shutter Runner - "Amazing Views From The Hancock Roof" 				      
 	 Taken on June 23, 2012.
@@ -9,8 +9,9 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width,maximum-scale=1.0,shrink-to-fit=no"/>
 	<title>Skyline Sports Mailing List</title>
-  <link rel="stylesheet" href="form-styles.css" />
-  <noscript><link href='https://fonts.googleapis.com/css?family=Montserrat|Nunito|PT+Serif' rel='stylesheet' type='text/css'></noscript>
+	<link rel="stylesheet" href="form-styles.css" />
+	<script src="gen_validatorv4.js" type="text/javascript"></script>
+	<noscript><link href='https://fonts.googleapis.com/css?family=Montserrat|Nunito|PT+Serif' rel='stylesheet' type='text/css'></noscript>
 </head>
 
 <body>
@@ -26,8 +27,8 @@
 	<form method="POST" action="#" id="info_form" enctype="multipart/form-data">
 	<div id="wrapper">
 	<fieldset>
-		<label>Name:  <input for="name" id="name_field" placeholder=""></label>
-		<label>Email:  <input for="email" id="email_field" placeholder=""></label>
+		<label for="name_field">Name:  <input type="text" id="name_field" required></label>
+		<label for="email_field">Email:  <input type="email" id="email_field" required></label>
 	</fieldset>
 
 	<fieldset>
@@ -39,7 +40,7 @@
 	</form>
 	
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
- <script type="text/javascript">
+  <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Nunito::latin', 'Montserrat::latin', 'PT+Serif::latin' ] }
   };
@@ -50,6 +51,7 @@
     wf.async = 'true';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
-  })();</script>
+  })();
+  </script>
 </body>
 </html>
