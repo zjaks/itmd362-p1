@@ -105,14 +105,6 @@ label {
   	-webkit-text-stroke-color: #004080;
 }
 
-legend {
-	font-size: 1.5em;
-	color: white;
-	font-family: 'Nunito', sans-serif;
-	font-weight: bold;
-}
-
-
 #wrapper {
 	margin-top: 0.3em;
 	margin-right: auto;
