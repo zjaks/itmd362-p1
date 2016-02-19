@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
-  <title>Skyline Sports Mailing List</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+	<title>Skyline Sports Mailing List</title>
   <link rel="stylesheet" href="form-styles.css" />
 </head>
 
@@ -20,15 +20,14 @@
 	<form method="POST" action="#" id="info_form" enctype="multipart/form-data">
 	<div id="wrapper">
 	<fieldset>
-		<label>Name:  <input type="text" name="name_field" placeholder=""></label>
-		<label>Email:  <input type="email" name="email_field" placeholder=""></label>
+		<label>Name:  <input for="name" id="name_field" placeholder=""></label>
+		<label>Email:  <input for="email" id="email_field" placeholder=""></label>
 	</fieldset>
 
 	<fieldset>
-			
-			<label for="comments_field">Any Comments? (We value your feedback!):</label>
-				<textarea cols="90" rows="10" name="comments_field" placeholder="Write any additional questions or comments here" id="comments_field"></textarea>
-			<input type="submit" form="info_form" value="Submit Form">
+		<label for="comments_field">Any Comments? (We value your feedback!):</label>
+		<textarea cols="90" rows="10" name="comments_field" placeholder="Write any additional questions or comments here" id="comments_field"></textarea>
+		<input type="submit" form="info_form" value="Submit Form">
 	</fieldset>
 	</div>
 	</form>
