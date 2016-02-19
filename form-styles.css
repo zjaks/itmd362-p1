@@ -73,13 +73,12 @@ img {
 
 #info_form {
 	font-family: Verdana,Geneva,sans-serif;
-	
 }
 
 #heading {
 	text-align: center;
-	color: white; /* If webkit is not supported text will be white */
-	font-family: 'Montserrat', sans-serif;
+	color: #42BCFF; /* If webkit is not supported text will be white */
+	font-family: 'PT Serif', serif;
 	font-size: 3em;
 	font-weight: bold;
 	display: block;
@@ -123,7 +122,7 @@ label {
 #text {
 	font-size: 1em;
 	color: white;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	line-height: 120%;
 	-webkit-text-fill-color: white; /* Will override color (regardless of order) */

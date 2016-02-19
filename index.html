@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width,maximum-scale=1.0,shrink-to-fit=no"/>
 	<title>Skyline Sports Mailing List</title>
   <link rel="stylesheet" href="form-styles.css" />
+  <noscript><link href='https://fonts.googleapis.com/css?family=Montserrat|Nunito|PT+Serif' rel='stylesheet' type='text/css'></noscript>
 </head>
 
 <body>
@@ -33,18 +34,17 @@
 	</form>
 	
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-  <script type="text/javascript">
-  WebFont.load = {
-    google: { families: [ 'Montserrat::latin', 'Nunito::latin', 'Arimo::latin' ] }
+ <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Nunito::latin', 'Montserrat::latin', 'PT+Serif::latin' ] }
   };
   (function() {
     var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
     wf.type = 'text/javascript';
     wf.async = 'true';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
-  })(); </script>
+  })();</script>
 </body>
 </html>
